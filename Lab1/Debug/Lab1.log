@@ -1,0 +1,34 @@
+﻿Build started 02/05/2017 14:31:03.
+     1>Project "C:\Users\declan\Desktop\GraphicsProgCoursework\Lab1\Lab1.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Lab1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt coreapp.cpp CoreGame.cpp MeshClass.cpp obj_loader.cpp ShaderClass.cpp TextureClass.cpp WindowClass.cpp
+         WindowClass.cpp
+         TextureClass.cpp
+         ShaderClass.cpp
+         obj_loader.cpp
+     1>c:\users\declan\desktop\graphicsprogcoursework\lab1\obj_loader.cpp(378): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         MeshClass.cpp
+         CoreGame.cpp
+         coreapp.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt stb_image.c
+         stb_image.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\declan\Desktop\GraphicsProgCoursework\Debug\GraphicsProgCoursework.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib opengl32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\declan\Desktop\GraphicsProgCoursework\Debug\GraphicsProgCoursework.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\declan\Desktop\GraphicsProgCoursework\Debug\GraphicsProgCoursework.lib" /MACHINE:X86 Debug\coreapp.obj
+         Debug\CoreGame.obj
+         Debug\MeshClass.obj
+         Debug\obj_loader.obj
+         Debug\ShaderClass.obj
+         Debug\stb_image.obj
+         Debug\TextureClass.obj
+         Debug\WindowClass.obj
+     1>coreapp.obj : error LNK2005: "public: __thiscall std::_Container_base12::_Container_base12(void)" (??0_Container_base12@std@@QAE@XZ) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>coreapp.obj : error LNK2005: "public: __thiscall std::locale::id::id(unsigned int)" (??0id@locale@std@@QAE@I@Z) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>coreapp.obj : error LNK2005: "public: __thiscall std::_Container_base12::~_Container_base12(void)" (??1_Container_base12@std@@QAE@XZ) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>coreapp.obj : error LNK2005: "public: void __thiscall std::_Container_base12::_Orphan_all(void)" (?_Orphan_all@_Container_base12@std@@QAEXXZ) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>Done Building Project "C:\Users\declan\Desktop\GraphicsProgCoursework\Lab1\Lab1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.45
